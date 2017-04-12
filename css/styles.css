@@ -1,15 +1,24 @@
 body{
-
+  font-family: '' sans-serif;
+}
+.{
+  width: 100%;
+}
+#main{
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
 }
 .header{
-
+  background-color: #ffd54f;
+  text-align: center;
 }
 .sidebar{
-
+  margin-top: 20px;
 }
 .mainContent{
-
+  margin-top: 20px;
 }
 .footer{
-  
+
 }
