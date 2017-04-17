@@ -12,19 +12,20 @@ $(document).ready(function() {
     for(var j = 0; j < arr.length; j++){
 
       if (arr[j]%3 === 0 && arr[j]%5 === 0) {
-        $(".result").append("<li>PingPong</li> \n");
+        $(".result").append("<li>PingPong</li>");
       }
       else if (arr[j]%5 === 0) {
-        $(".result").append("<li>Pong</li> \n");
+        $(".result").append("<li>Pong</li>");
       }
       else if (arr[j]%3 === 0){
-        $(".result").append("<li>Ping</li> \n");
+        $(".result").append("<li>Ping</li>");
       }
       else {
-        $(".result").append("<li>"+arr[j]+"\n</li>");
+        $(".result").append("<li>"+arr[j]+"</li>");
       }
     }
 
+    $(".footer").show();
     // $("#output").show();
 
     event.preventDefault();

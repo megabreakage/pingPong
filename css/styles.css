@@ -2,12 +2,9 @@ body{
   font-family: '' sans-serif;
 }
 .{
-  width: 100%;
+  box-sizing: border-box;
 }
 #main{
-  width: 75%;
-  height: auto;
-  margin: 0 auto;
 }
 .header{
   background-color: #ffd54f;
@@ -23,7 +20,14 @@ body{
 #number{
   width: 30%;
 }
+output{
+  text-align: center;
+}
 
 .footer{
-
+  font-size: 10px;
+  background-color: #ffd54f;
+  padding: 15px;
+  display: none;
+  text-align: center;
 }
